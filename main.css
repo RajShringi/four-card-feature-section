@@ -112,3 +112,19 @@ body {
   margin-top: 1.5rem;
   width: 100%;
 }
+@media screen and (min-width: 980px) {
+  .hero-heading,
+  .hero-highlight-heading {
+    font-size: 2rem;
+  }
+  .card {
+    flex-direction: row;
+    margin-top: 4rem;
+  }
+
+  .col1,
+  .col2,
+  .col3 {
+    width: 30%;
+  }
+}
